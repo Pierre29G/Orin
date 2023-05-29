@@ -1,0 +1,55 @@
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50px;
+    top: 2em;
+    padding: 20px;
+    z-index: 50;
+    border-radius: 20px;
+    background-color: white;
+    width: 25vw;
+}
+
+header img{
+    width: 100px;
+    height: auto;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav a{
+    margin: 0 1vw;
+}
+
+header svg{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+header a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header.closed{
+    width: 10vw;
+}
+
+header.closed nav{
+    opacity: 0;
+    width: 5px;
+}
+
+#arrow svg{
+    margin-bottom: 0;
+}
+
+#arrow.closed{
+    transform: rotate(180deg);
+}

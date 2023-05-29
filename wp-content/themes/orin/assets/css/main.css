@@ -1,0 +1,51 @@
+/* Style général applicable sur toutes les pages */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #291800;
+    margin: 0;
+}
+
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+h1,h2{
+    font-size: 43px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.button{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    min-width: 200px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #A64D2D;
+    color: white;
+    border-radius: 200px;
+    padding: 5px 25px;
+    text-decoration: none;
+    border: 2px solid white;
+    line-height: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition: 0.3;
+    background-color: white;
+    color: #A64D2D;
+    border: 2px solid #A64D2D;
+}
