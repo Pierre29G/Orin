@@ -3,7 +3,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     const xhttp = new XMLHttpRequest();
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoidGVhbHQiLCJhIjoiY2xpNmlmNnVkMTV5bDNrb3psMTViM2FqcSJ9.Lx-ytWT0E0Hw3d7KOXzfvQ';
+    mapboxgl.accessToken = 'PLACEZ VOTRE TOKEN ICI';
     const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
